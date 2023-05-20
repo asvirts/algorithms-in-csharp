@@ -14,5 +14,17 @@ Expected Output:
 
  */
 
+static void Sum(int x, int y)
+    {
+    int z = 0;
+    z = x + y;
+    if (x == y)
+    {
+        z = z * 3;
+    }
+    Console.WriteLine(z);
+    }
 
-Console.WriteLine("Hello, World!");
+Sum(1, 2);
+Sum(3, 2);
+Sum(2, 2);
